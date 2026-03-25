@@ -9,7 +9,6 @@ const getTodos = async (req, res) => {
   }
 };
 
-
 const createTodo = async (req, res) => {
   try {
     const newTodo = new todoModel(req.body);
